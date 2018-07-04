@@ -2,6 +2,9 @@ const platformParams = ['--platform', 'iOS']
 
 const childProcess = require('child_process')
 
+console.warn('===VISEO=== react-native-ble-plx')
+
+
 var parentModulePackageJson = null
 try {
   parentModulePackageJson = require('../../package.json')
